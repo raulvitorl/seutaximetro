@@ -9,8 +9,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "HTTPS=true react-scripts start",
-    "prestart": "cp -f ./.cert/key.pem ./node_modules/webpack-dev-server/ssl/server.pem && cat ./.cert/cert.pem >> ./node_modules/webpack-dev-server/ssl/server.pem",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
